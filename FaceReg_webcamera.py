@@ -25,8 +25,8 @@ while True:
         roi_color = frames[y:y+h, x:x+w]
         eyes = eye_cascade.detectMultiScale(roi_gray)
        # Draw a rectangle around the eyes  
-    for (ex,ey,ew,eh) in eyes:
-         cv2.rectangle(roi_color,(ex,ey),(ex+ew,ey+eh),(0,255,0),2)      #drwaing a cicle around the eyes
+        for (ex,ey,ew,eh) in eyes:
+            cv2.rectangle(roi_color,(ex,ey),(ex+ew,ey+eh),(0,255,0),2)      #drwaing a cicle around the eyes
 
          
     # Display the resulting frame
