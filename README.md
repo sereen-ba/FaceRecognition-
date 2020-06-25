@@ -1,6 +1,6 @@
 # FaceRecognition-
 Face Detection in Python using OpenCV
-
+This file contains 2 python codes one was for image reading and face and eye-det, but the other code uses the real web camera and the also detactes faces and eyes.
 
 
 First we need to install opencv but make sure you have the latest python version 
@@ -13,7 +13,8 @@ First we need to install opencv but make sure you have the latest python version
  
  
  ______
- This website was really helpful in a way that opens you to learn about the basic functions in opencv
+ This website was really helpful in a way that opens you to learn about the basic functions in opencv  'https://www.udemy.com/course/pythoncv/
+'
  
  Note keep all the file directories in the same file in cv2.so
  _____
